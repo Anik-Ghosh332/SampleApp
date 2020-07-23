@@ -1,0 +1,15 @@
+.display{
+    padding: 20px 20px;
+    background-color:  rgb(114, 114, 190);
+    margin: 20px 0;
+    color: ivory;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    border-radius: 2px;
+}
+
+button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(114, 114, 190);
+    border: none;
+}

@@ -1,0 +1,20 @@
+<div class="container">
+    <h4>Welcome to the User Page</h4>
+  </div>
+
+
+<div class="container"> 
+  <form action="/user" method="GET">
+    <label>Search Users</label>
+    <input class="form-control" type="text" placeholder="Enter Username" id="name">
+    <button class="btn btn-primary">Submit</button>
+  </form>
+  <h3>User List</h3>
+  <div *ngFor="let user of users">
+    <div class="display">
+      <h5><strong>User Name :</strong>{{user.name}}</h5>
+      <h5><strong>Email :</strong>{{user.email}}</h5>
+     </div> 
+  </div>
+</div>  
+  
